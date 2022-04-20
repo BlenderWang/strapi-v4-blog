@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "writers",
+  "info": {
+    "singularName": "writer",
+    "pluralName": "writers",
+    "displayName": "Writer",
+    "name": "writer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
